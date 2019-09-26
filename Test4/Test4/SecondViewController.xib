@@ -21,8 +21,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-dG-q5F" customClass="SecondMainView" customModule="Test4" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-dG-q5F" customClass="SecondMainView" customModule="Test4" customModuleProvider="target">
+                    <rect key="frame" x="8" y="44" width="406" height="818"/>
                     <color key="backgroundColor" red="0.12729281219999999" green="1" blue="0.63481127410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
@@ -34,6 +34,7 @@
                 <constraint firstItem="kfD-dG-q5F" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u8d-SK-Qtt"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
         </view>
     </objects>
 </document>
